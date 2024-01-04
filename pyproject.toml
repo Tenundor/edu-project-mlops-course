@@ -27,27 +27,13 @@ lines_after_imports = 2
 
 [tool.nbqa.config]
 black = "pyproject.toml"
-isort = "pyproject.toml"
-flake8 = "pyproject.toml"
+flake8 = "setup.cfg"
 
 [tool.nbqa.addopts]
 flake8 = ["--extend-ignore=E402"]
 
 [tool.nbqa.mutate]
 black = 1
-isort = 1
-
-[tool.flake8]
-max-line-length = 90
-ingonre = "E203, E501, W503, B950"
-max-complexity = 12
-select = "B, C, E, F, W, B9"
-per-file-ignores = """
-    # for easier imports to __init__ without __all__
-    **/__init__.py: F401
-    # file to define custom types
-    types.py: F401
-"""
 
 [build-system]
 requires = ["poetry-core"]
