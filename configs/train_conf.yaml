@@ -1,0 +1,4 @@
+params:
+  iterations: 80
+  learning_rate: 0.1
+  tree_depth: 4
