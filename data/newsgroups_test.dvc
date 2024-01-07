@@ -1,6 +1,6 @@
 outs:
-- md5: 3869a4daa2a28e6fa7cabde01fac820d.dir
-  size: 8323056
+- md5: 20898f4fe86e5f2c6452a76ae9267029.dir
+  size: 8604050
   nfiles: 2
   hash: md5
   path: newsgroups_test

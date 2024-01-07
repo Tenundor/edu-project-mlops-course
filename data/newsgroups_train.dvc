@@ -1,6 +1,6 @@
 outs:
-- md5: 167ea64a28650dea9e3d6e3da42c205f.dir
-  size: 13883947
+- md5: 370180e95425ff85a275d7706c83d407.dir
+  size: 14348431
   nfiles: 3
   hash: md5
   path: newsgroups_train

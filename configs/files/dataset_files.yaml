@@ -1,0 +1,7 @@
+test_data: newsgroups_test/test_data.json
+test_targets: newsgroups_test/test_target.json
+train_data: newsgroups_train/train_data.json
+train_targets: newsgroups_train/train_target.json
+target_names: newsgroups_train/target_names.json
+vectorizer: vectorizer_data.json
+model: catboost_model.cbm

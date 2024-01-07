@@ -1,0 +1,5 @@
+outs:
+- md5: 59baed4e40e2787e72788273c16d9d98
+  size: 563163
+  hash: md5
+  path: newsgroups_classification.ipynb
