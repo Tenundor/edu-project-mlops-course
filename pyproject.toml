@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "edu-project-mlops-course"
+name = "news_classification"
 version = "0.1.0"
-description = "Educational project for the applied mlops master's course"
+description = "The package contains scripts for training CatBoost model for classifying text news into 20 topics and making predictions on test data."
 authors = ["Anton Zaitsev <antonzaitsev474@gmail.com>"]
 license = "MIT"
 readme = "README.md"

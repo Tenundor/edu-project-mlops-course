@@ -5,10 +5,10 @@ import mlflow
 from hydra.core.config_store import ConfigStore
 
 from config import MainConfig
-from ds_project.dataset import get_dataset
-from ds_project.models import NewsClassificationModel
-from ds_project.runner import TrainRunner
-from ds_project.vectorization import NewsVectorizer
+from news_classification.dataset import get_dataset
+from news_classification.models import NewsClassificationModel
+from news_classification.runner import TrainRunner
+from news_classification.vectorization import NewsVectorizer
 
 
 logger = logging.getLogger(__name__)
