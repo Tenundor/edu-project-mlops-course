@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "news_classification"
+name = "news-classification"
 version = "0.1.0"
 description = "The package contains scripts for training CatBoost model for classifying text news into 20 topics and making predictions on test data."
 authors = ["Anton Zaitsev <antonzaitsev474@gmail.com>"]
