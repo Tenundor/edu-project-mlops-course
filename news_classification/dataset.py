@@ -18,14 +18,14 @@ class NewsDataset:
         return len(self.data)
 
     def __getitem__(self, idx: int) -> tuple[str, int]:
-        x = self.get_x(idx)
-        y = self.get_y(idx)
-        return x, y
+        news_data = self.get_news_data(idx)
+        target = self.get_target(idx)
+        return news_data, target
 
-    def get_x(self, idx: int) -> str:
+    def get_news_data(self, idx: int) -> str:
         return self.data[idx]
 
-    def get_y(self, idx: int) -> int:
+    def get_target(self, idx: int) -> int:
         return self.targets[idx]
 
     def get_target_name(self, idx: int) -> str:
